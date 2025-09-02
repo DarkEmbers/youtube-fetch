@@ -24,11 +24,11 @@ export default function Home()
 					YouTube Fetch
 				</h1>
 				<p className="text-gray-700 text-lg font-medium drop-shadow-sm">
-					Discover and explore content effortlessly
+					Insights for Every Video You Love.
 				</p>
 			</div>
 
-			<div className="relative z-10">
+			<div className="relative z-10 w-full max-w-lg">
 				<SearchBar />
 			</div>
 			<div className="relative z-10">

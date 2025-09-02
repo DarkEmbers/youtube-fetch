@@ -21,7 +21,7 @@ export const SearchBar = ({ onSearch, onClear, initialValue = '' }) =>
 	};
 
 	return (
-		<div className="relative w-full max-w-lg mx-auto">
+		<div className="relative w-full mx-auto">
 			<div className="relative flex items-center bg-white/80 backdrop-blur-md rounded-full shadow-lg border border-white/30 overflow-hidden">
 				<div className="pl-4 pr-3 py-3">
 					<Search className="h-5 w-5 text-gray-600" />
